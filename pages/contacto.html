@@ -13,11 +13,11 @@
 </head>
 <!--BODY-->
 <body>
-    <div class="container">
+    <div class="container_contacto">
 <!--HEADER-->
     <header class="header">
         <section class="logo">
-        <img src="../imagenes/logo care.png" class="img_logo" alt="logo">
+        <img src="../imagenes/logocare.png" class="img_logo" alt="logo">
          </section>
          <!--NAVBAR-->
         <nav class="header__nav">
@@ -42,28 +42,28 @@
 
         
     
-    <main class="main">
-        <h1>Formulario de Contacto</h1>
-        <form action="">
-            <fieldset>
-                <legend>Contactanos</legend>
+    <main>
+        <section>
+        <h1 class="form_h1">Formulario de Contacto</h1>
+        <form class="form_container" action="">
+            
             <div>
-                <label for="name">Nombre</label>
-                <input type="text" placeholder="Ivan">
+                <label for="name">Nombre:</label>
+                <input type="text" placeholder="Ingresa tu nombre">
             </div>
             <br>
             <div>
-                <label for="surname">Apellido</label>
-                <input type="text" placeholder="Perez">
+                <label for="surname">Apellido:</label>
+                <input type="text" placeholder="Ingresa tu apellido">
             </div>
             <br>
             <div>
-                <label for="mail">Email *</label>
+                <label for="mail">Email: </label>
                 <input text="email" required>
             </div>
             <br>
             <div>
-                <label for="phone">Numero Celular</label>
+                <label for="phone">Teléfono:</label>
                 <input text="number">
             </div>
             <br>
@@ -77,17 +77,17 @@
             </div>
             <br>
             <div>
-                <label for="comments">Escribe tu consulta</label>
+                <label for="comments">Escribe tu consulta:</label>
                 <br>
-                <textarea name="consulta" id="" cols="30" rows="10"></textarea>
+                <textarea name="consulta" id="" cols="35" rows="10"></textarea>
             </div>
             <br>
             <div>
-                <input type="submit" value="Enviar consulta">
-                <input type="reset" value="Borrar datos">
+                <input class= "form_boton" type="submit" value="Enviar consulta">
+                <input class= "form_boton" type="reset" value="Borrar datos">
             </div>
         </form>
-
+    </section>
         <section>
             <div>
                 <a href="https://api.whatsapp.com/send?phone=541166098669&text=Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20productos" target="_blank"> <img src="../imagenes/iconos/whatsapp_fijo.png" class="wsplogo" alt="logowsp"></a> 
@@ -102,27 +102,25 @@
             <div class="box"> <!--logo-->
                 <figure>
                     <a href="#">
-                        <img src="../imagenes/logo care.png" class="img_logo" alt="logo">
+                        <img src="../imagenes/logocare.png" class="footer_logo" alt="footerlogo">
                     </a>
                 </figure>
             </div> <!--contacto y redes-->
             <div class="box">
                 <h2 class="h2">Contacto</h2>
-                <p>+54 9 11 6609-8669📱</p>
+                <p>+54 9 11 6609-8669 <a class="contacto__a-enlace" href="https://api.whatsapp.com/send?phone=541166098669&text=Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20productos" target="_blank">
+                    <img src="../imagenes/iconos/logo wsp.png" alt="whatsapp" width="18px"></a></p>
                 <p>7590-5895 ☎️ </p>
-                <p>caresalud.ins@gmail.com 📧</p>                   
+                <p>caresalud.ins@gmail.com <a class="contacto__a-enlace"  href="mailto:caresalud.ins@gmail.com"  target="_blank">
+                    <img src="../imagenes/iconos/gmail.png" alt="enviar mail" width="18px"></a></p>                   
             </div>
             <div class="box">
                 <h2>Seguinos</h2>
                 <div class="red-social">
-                    <a class="footer__a-enlace" href="https://api.whatsapp.com/send?phone=541166098669&text=Hola!%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20productos" target="_blank">
-                        <img src="../imagenes/iconos/logo wsp.png" alt="whatsapp" width="18px"></a>
                     <a class="footer__a-enlace" href="https://www.instagram.com/care_salud/"  target="_blank">
                         <img src="../imagenes/iconos/instagram.png" alt="instagram" width="18px"></a>
                     <a class="footer__a-enlace"  href="https://www.facebook.com/Caresalud.ins"  target="_blank">
                         <img src="../imagenes/iconos/facebook.png" alt="facebook" width="18px"></a>
-                    <a class="footer__a-enlace"  href="mailto:caresalud.ins@gmail.com"  target="_blank">
-                        <img src="../imagenes/iconos/gmail.png" alt="enviar mail" width="18px"></a>
                 </div>
             </div>
             <div > <!--mapa-->
