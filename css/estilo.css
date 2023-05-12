@@ -9,16 +9,17 @@
     grid-template-rows: 0.5fr 1.5fr 1.5fr 0.5fr 0.1fr; 
     gap: 0px 0px; 
     grid-template-areas: 
-      "header header header header"
-      "main main main main"
-      "main main main main"
-      "footer1 footer1 footer1 footer1"
-      "footer2 footer2 footer2 footer2"; 
-  }
-  .footer2 { grid-area: footer2; }
-  .footer1 { grid-area: footer1; }
-  .main { grid-area: main; }
-  .header { grid-area: header; }
+    "header header header header"
+    "main main main main"
+    "main main main main"
+    "footer1 footer1 footer1 footer1"
+    "footer2 footer2 footer2 footer2"; 
+}
+.footer2 { grid-area: footer2; }
+.footer1 { grid-area: footer1; }
+.main { grid-area: main; }
+.header { grid-area: header; }
+
 body{
     background-color: rgb(255, 255, 255);
     font-family: 'Sriracha', cursive;
@@ -59,7 +60,7 @@ nav {
     background-color: rgb(159, 181, 231);
     text-decoration: none;
     border-radius: 40px;
-  }  
+}  
 
 .link:hover{
     color: black;
@@ -274,13 +275,13 @@ textarea{
         grid-template-rows: auto; 
         gap: 0; 
         grid-template-areas: 
-          "header "
-          "main"   
-          "footer1"
-          "footer2"; 
-      }
+        "header "
+        "main"   
+        "footer1"
+        "footer2"; 
+}
 
-      .header {
+    .header {
         background-color: rgba(173, 188, 214, 0.418);
         height: auto;
         display: flex;
@@ -322,5 +323,5 @@ textarea{
         width: 90%;
         height: 250px;
     }
-      
+
     }
