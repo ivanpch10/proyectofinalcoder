@@ -1,0 +1,41 @@
+/*Pagina Nosotros*/
+main{
+    .div_img{
+        display: flex;
+        align-items: center;
+    }
+    .img_local{
+        width: 90%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+    
+    .nuestroloc{
+        text-align: center;
+        margin-top: 15px;
+    }
+    .nosotros{
+        padding: 45px;
+        font-size: large;
+        text-align: justify;
+    }
+    .titulo{
+        padding: 0;
+        text-align: center;
+    }
+    .nos_mision{
+        padding: 45px;
+        text-align: justify;
+        font-size: medium;
+        margin-top: 0px;
+    }
+    .nos_vision{
+        padding: 45px;
+        text-align: justify;
+        font-size: medium;
+    }
+}
+/*Fin Pagina Nosotros*/
