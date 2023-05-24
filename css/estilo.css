@@ -95,9 +95,10 @@ main {
     grid-gap: 50px;
     padding: 50px 0px;
     text-align: center; }
-  .map {
+  .footer1 .map {
     width: 90%;
-    height: 250px; } }
+    height: 250px;
+    size: 100%; } }
 
 .animate__animated.animate__fadeInDown {
   --animate-duration:3s; }
