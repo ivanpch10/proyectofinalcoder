@@ -73,7 +73,8 @@ main {
     font-size: 25px; }
   .footer1 .map {
     width: 350px;
-    height: 250px; }
+    height: 250px;
+    size: 100%; }
 
 .footer2 {
   background-color: #8299c3;
@@ -171,12 +172,12 @@ main .nos_vision {
 
 /*Fin Pagina Nosotros*/
 /*Pagina Servicios*/
-main .titulo_h1 {
+main .titulo_h2 {
   text-align: center;
   margin: 10px;
   list-style-type: disc; }
 
-main .subtitulo_h3 {
+main .subtitulo_li {
   padding: 10px;
   margin: 5px;
   font-size: large; }

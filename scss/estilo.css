@@ -115,6 +115,7 @@ main {
   .map {
     width: 90%;
     height: 250px;
+    size: 100%;
   }
 }
 /*Index*/
@@ -187,12 +188,12 @@ main .nos_vision {
 
 /*Fin Pagina Nosotros*/
 /*Pagina Servicios*/
-main .titulo_h1 {
+main .titulo_h2 {
   text-align: center;
   margin: 10px;
   list-style-type: disc;
 }
-main .subtitulo_h3 {
+main .subtitulo_li {
   padding: 10px;
   margin: 5px;
   font-size: large;
