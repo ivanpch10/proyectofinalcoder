@@ -1,0 +1,44 @@
+/* Formulario Pag Contacto */
+main{
+    .container_contacto{
+        margin: 0;
+    }
+    
+    .form_h1{
+        text-align: center;
+    }
+    .container_form{
+        display: flex;
+        justify-content: center;
+    
+    }
+    .form_container{
+        width: 75%;
+        margin: auto;
+        background: $colorformulario;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+    
+    input, textarea {
+        width: 100%;
+        margin-bottom: 12px;
+        padding: 7px;
+    }
+    
+    textarea{
+        min-height:100px;
+        max-height: 150px;
+        max-width: 100%;
+    }
+    
+    .form_boton{
+        font-size:medium;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+/* Fin Formulario Contacto */

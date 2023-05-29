@@ -1,0 +1,19 @@
+/* MAIN */
+main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $colormain;
+    
+}
+/*boton WSP*/
+.wsplogo{
+    width: 70px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 30%;
+}
+/* fin boton WSP*/
+/* FIN MAIN */
