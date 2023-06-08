@@ -16,11 +16,12 @@ main{
     .nuestroloc{
         text-align: center;
         margin-top: 15px;
+        font-size: 30px;
     }
     .nosotros{
         padding: 45px;
-        font-size: large;
-        text-align: justify;
+        text-align: justify; 
+        font-style:inherit; 
     }
     .titulo{
         padding: 0;
@@ -29,13 +30,12 @@ main{
     .nos_mision{
         padding: 45px;
         text-align: justify;
-        font-size: medium;
-        margin-top: 0px;
+        font-style: italic; 
     }
     .nos_vision{
         padding: 45px;
-        text-align: justify;
-        font-size: medium;
+        text-align: justify; 
+        font-style: italic; 
     }
 }
 /*Fin Pagina Nosotros*/

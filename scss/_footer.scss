@@ -29,10 +29,15 @@
     .contacto__a-enlace {
         padding: 8px;
     }
-    .box p {
+    .numerocelular {
         margin-bottom: 10px;
-        font-size: 15px;
-    }
+        font-size: 15px; }
+    .numerotelefono {
+        margin-bottom: 10px;
+        font-size: 15px; }
+    .mail {
+        margin-bottom: 10px;
+        font-size: 15px; }
     .red-social a{
         display: inline-block;
         width: 45px;
@@ -59,10 +64,6 @@
     background-color: $colorfooter2;
     padding: 15px 10px ;
     text-align: center;
-    small{
-        font-size: 15px;
-    }
-    
 }
 /* FIN FOOTER */
 

@@ -1,6 +1,6 @@
 /* Pagina productos*/
 main{
-    .h2_prod{
+    .h1_prod{
         text-align: center;
         margin: 15px;
     }
@@ -9,6 +9,10 @@ main{
             text-align: center;
         }
         .card-text{
+            text-align: center;
+            margin: 10px;
+        }
+        .card-price{
             text-align: center;
             margin: 10px;
         }

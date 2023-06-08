@@ -1,17 +1,22 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 header .navbar {
-  background-color: rgba(173, 188, 214, 0.418); }
-
+  background-color: rgba(173, 188, 214, 0.418);
+}
 header .logo {
-  display: flex; }
-
+  display: flex;
+}
 header .img_logo {
   width: 200px;
-  display: flex; }
+  display: flex;
+}
+header .nav-link {
+  font-weight: bold;
+}
 
 /* MAIN */
 main {
@@ -19,69 +24,79 @@ main {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: rgba(240, 238, 238, 0.999); }
+  background-color: rgba(240, 238, 238, 0.999);
+}
 
-/*boton WSP*/
-.wsplogo {
-  width: 70px;
-  position: fixed;
-  bottom: 40px;
-  right: 40px;
-  border-radius: 30%; }
-
-/* fin boton WSP*/
 /* FIN MAIN */
 /* FOOTER */
 .footer1 {
   background: rgba(173, 188, 214, 0.418);
-  width: 100%; }
-  .footer1 .footer_logo {
-    width: 150px; }
-  .footer1 .grupo-1 {
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 50px;
-    padding: 50px 0px; }
-  .footer1 .box .figure {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center; }
-  .footer1 .box .h2 {
-    margin-bottom: 5px;
-    font-size: 25px;
-    text-align: auto; }
-  .footer1 .contacto__a-enlace {
-    padding: 8px; }
-  .footer1 .box p {
-    margin-bottom: 10px;
-    font-size: 15px; }
-  .footer1 .red-social a {
-    display: inline-block;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    margin-right: 10px; }
-  .footer1 .h3 {
-    font-size: 15px;
-    margin-bottom: 10px; }
-  .footer1 .h2 {
-    font-size: 25px; }
-  .footer1 .map {
-    width: 350px;
-    height: 250px;
-    size: 100%; }
+  width: 100%;
+}
+.footer1 .footer_logo {
+  width: 150px;
+}
+.footer1 .grupo-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
+  padding: 50px 0px;
+}
+.footer1 .box .figure {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer1 .box .h2 {
+  margin-bottom: 5px;
+  font-size: 25px;
+  text-align: auto;
+}
+.footer1 .contacto__a-enlace {
+  padding: 8px;
+}
+.footer1 .numerocelular {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.footer1 .numerotelefono {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.footer1 .mail {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.footer1 .red-social a {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  margin-right: 10px;
+}
+.footer1 .h3 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.footer1 .h2 {
+  font-size: 25px;
+}
+.footer1 .map {
+  width: 350px;
+  height: 250px;
+  size: 100%;
+}
 
 .footer2 {
   background-color: #8299c3;
   padding: 15px 10px;
-  text-align: center; }
-  .footer2 small {
-    font-size: 15px; }
+  text-align: center;
+}
 
 /* FIN FOOTER */
 /*media querie para mobile*/
@@ -94,137 +109,186 @@ main {
     grid-template-columns: 1fr;
     grid-gap: 50px;
     padding: 50px 0px;
-    text-align: center; }
+    text-align: center;
+  }
   .footer1 .map {
     width: 90%;
     height: 250px;
-    size: 100%; } }
-
+    size: 100%;
+  }
+}
 .animate__animated.animate__fadeInDown {
-  --animate-duration:3s; }
+  --animate-duration:3s;
+}
 
 .animate__animated.animate__flipInX {
-  --animate-duration:2s; }
+  --animate-duration:2s;
+}
 
+/*boton WSP*/
+.wsplogo {
+  width: 70px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  border-radius: 30%;
+}
+
+/* fin boton WSP*/
 /*Index*/
 main .img-fluid {
   max-width: 100%;
   height: auto;
-  align-items: center; }
-
+  align-items: center;
+}
 main .div_banner {
   display: flex;
   justify-content: center;
-  margin: 35px; }
-
+  margin: 35px;
+}
 main .titulo_index {
   text-align: center;
-  margin: 40px; }
+  margin: 10px;
+  font-size: 30px;
+}
+main .card-title {
+  font-size: 22px;
+}
 
 /*Fin Index*/
 /* Pagina productos*/
-main .h2_prod {
+main .h1_prod {
   text-align: center;
-  margin: 15px; }
-
+  margin: 15px;
+}
 main .container .card-title {
-  text-align: center; }
-
+  text-align: center;
+}
 main .container .card-text {
   text-align: center;
-  margin: 10px; }
+  margin: 10px;
+}
+main .container .card-price {
+  text-align: center;
+  margin: 10px;
+}
 
 /*fin pagina productos*/
 /*Pagina Nosotros*/
 main .div_img {
   display: flex;
-  align-items: center; }
-
+  align-items: center;
+}
 main .img_local {
   width: 90%;
   margin-bottom: 20px;
   margin-top: 20px;
   margin-left: 20px;
-  margin-right: 20px; }
-
+  margin-right: 20px;
+}
 main .nuestroloc {
   text-align: center;
-  margin-top: 15px; }
-
+  margin-top: 15px;
+  font-size: 30px;
+}
 main .nosotros {
   padding: 45px;
-  font-size: large;
-  text-align: justify; }
-
+  text-align: justify;
+  font-style: inherit;
+}
 main .titulo {
   padding: 0;
-  text-align: center; }
-
+  text-align: center;
+}
 main .nos_mision {
   padding: 45px;
   text-align: justify;
-  font-size: medium;
-  margin-top: 0px; }
-
+  font-style: italic;
+}
 main .nos_vision {
   padding: 45px;
   text-align: justify;
-  font-size: medium; }
+  font-style: italic;
+}
 
 /*Fin Pagina Nosotros*/
 /*Pagina Servicios*/
-main .titulo_h2 {
+main .titulo_h1 {
   text-align: center;
   margin: 10px;
-  list-style-type: disc; }
-
+  list-style-type: disc;
+  text-decoration: underline;
+}
+main .titulo_h2 {
+  text-align: center;
+  margin: 15px;
+  list-style-type: disc;
+  text-decoration: underline;
+}
+main .titulo_h3 {
+  text-align: center;
+  margin: 10px;
+  list-style-type: disc;
+  text-decoration: underline;
+}
 main .subtitulo_li {
   padding: 10px;
   margin: 5px;
-  font-size: large; }
-
+  font-size: large;
+  font-weight: bold;
+}
 main .parrafo_servicios {
   margin-right: 40px;
   margin-left: 40px;
-  text-align: justify; }
-
+  text-align: justify;
+  font-style: oblique;
+}
 main .accordion {
   margin-bottom: 15px;
-  margin: 15px; }
+  margin: 15px;
+}
+
+.accordion-button {
+  font-weight: bold;
+}
 
 /*Fin Pagina Servicios*/
 /* Formulario Pag Contacto */
 main .container_contacto {
-  margin: 0; }
-
+  margin: 0;
+}
 main .form_h1 {
-  text-align: center; }
-
+  text-align: center;
+  font-size: 30px;
+  margin: 25px;
+}
 main .container_form {
   display: flex;
-  justify-content: center; }
-
+  justify-content: center;
+}
 main .form_container {
   width: 75%;
   margin: auto;
   background: rgba(0, 0, 0, 0.2);
   padding: 10px 20px;
   margin-bottom: 20px;
-  border-radius: 10px; }
-
+  border-radius: 10px;
+}
 main input, main textarea {
   width: 100%;
   margin-bottom: 12px;
-  padding: 7px; }
-
+  padding: 7px;
+}
 main textarea {
   min-height: 100px;
   max-height: 150px;
-  max-width: 100%; }
-
+  max-width: 100%;
+}
 main .form_boton {
-  font-size: medium; }
-  main .form_boton:hover {
-    cursor: pointer; }
+  font-size: medium;
+}
+main .form_boton:hover {
+  cursor: pointer;
+}
 
 /* Fin Formulario Contacto */

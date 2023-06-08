@@ -1,23 +1,35 @@
 /*Pagina Servicios*/
 main{
-    .titulo_h2{
+    .titulo_h1 {
         text-align: center;
         margin: 10px;
         list-style-type: disc;
-    }
-    .subtitulo_li{
+        text-decoration: underline; }
+    .titulo_h2 {
+        text-align: center;
+        margin: 15px;
+        list-style-type: disc; 
+        text-decoration: underline; }
+    .titulo_h3 {
+        text-align: center;
+        margin: 10px;
+        list-style-type: disc; 
+        text-decoration: underline; }
+    .subtitulo_li {
         padding: 10px;
         margin: 5px;
-        font-size: large;
-    }
-    .parrafo_servicios{
+        font-size: large; 
+        font-weight: bold; }
+    .parrafo_servicios {
         margin-right: 40px;
         margin-left: 40px;
-        text-align: justify;
-    }
-    .accordion{
+        text-align: justify; 
+        font-style: oblique; }
+    .accordion {
         margin-bottom: 15px;
-        margin: 15px
+        margin: 15px; }
     }
+    .accordion-button{
+        font-weight: bold;
     }
     /*Fin Pagina Servicios*/
